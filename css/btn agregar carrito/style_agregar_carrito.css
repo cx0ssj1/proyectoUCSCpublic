@@ -1,0 +1,17 @@
+.btn{
+    border-radius: 16px;
+}
+.btn:hover{
+    background-color: #22b25e;
+    border-color: #22b25e;
+    color: white;
+}
+.btn-carrito{
+    margin-left: 30px;
+    margin-right: 70px;
+    z-index: 1000; /* Valor más alto que el de la navbar */
+    position: fixed;
+    top: 15px; /* Ajusta la posición */
+    right: 15px;
+}
+
